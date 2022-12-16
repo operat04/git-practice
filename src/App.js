@@ -1,8 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
 import styled from "styled-components";
-import { createStore } from "@reduxjs/toolkit";
-import { Provider, useDispatch, useSelector } from "react-redux";
 
 const ChangeValueButton = styled.button`
   display: inline-flex;
